@@ -38,3 +38,4 @@ D:\OLD-WORK-LAPTOP\d\Work\DotNext 2016\2017\BotApplicationImageCaption2017\BotAp
 D:\OLD-WORK-LAPTOP\d\Work\DotNext 2016\2017\BotApplicationImageCaption2017\BotApplicationImageCaption2017\obj\Debug\BotApplicationImageCaption2017.csprojResolveAssemblyReference.cache
 D:\OLD-WORK-LAPTOP\d\Work\DotNext 2016\2017\BotApplicationImageCaption2017\BotApplicationImageCaption2017\obj\Debug\Bot Application.dll
 D:\OLD-WORK-LAPTOP\d\Work\DotNext 2016\2017\BotApplicationImageCaption2017\BotApplicationImageCaption2017\obj\Debug\Bot Application.pdb
+D:\OLD-WORK-LAPTOP\d\Work\DotNext 2016\2017\BotApplicationImageCaption2017\BotApplicationImageCaption2017\bin\Microsoft.ProjectOxford.Vision.dll

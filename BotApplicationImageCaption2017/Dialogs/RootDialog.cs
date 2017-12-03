@@ -6,6 +6,7 @@ using Microsoft.Bot.Connector;
 namespace BotApplicationImageCaption2017.Dialogs
 {
     [Serializable]
+    [Obsolete("?")]
     public class RootDialog : IDialog<object>
     {
         public Task StartAsync(IDialogContext context)

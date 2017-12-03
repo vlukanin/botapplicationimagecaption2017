@@ -54,7 +54,8 @@
                 }
                 catch (Exception e)
                 {
-                    message = "Sorry... Error. Try again later."; //+ "<br/>" + e.Message + "<br/>" + e.StackTrace;
+                    //message = "Sorry... Error. Try again later."; //+ "<br/>" + e.Message + "<br/>" + e.StackTrace;
+                    message = "Sorry... Error. Try again later." + "<br/>" + e.Message + "<br/>" + e.StackTrace;
 
                     Trace.TraceError(e.ToString());
                 }
@@ -129,6 +130,7 @@
                     httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue(imageAttachment.ContentType));
                 }
 
+                // TODO: error is here: Response status code does not indicate success: 406 (Not Acceptable).
                 return await httpClient.GetStreamAsync(uri);
             }
         }
